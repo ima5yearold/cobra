@@ -866,16 +866,16 @@ button.btn--large {
 
 .btn--stroke,
 button.btn--stroke {
-  background: transparent !important;
-  border: 0.2rem solid #ff9a16;
-  color: #ff9a16;
+  background:  #164359 !important;
+  border: 0.2rem solid #164359;
+  color: #ffffff ;
 }
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
-  background: #164359 !important;
-  border: 0.2rem solid #164359;
-  color: #ffffff;
+  background: transparent!important;
+  border: 0.2rem solid #ff9a16;
+  color: #ff9a16;
 }
 
 .btn--pill,
@@ -2892,7 +2892,8 @@ html.no-csstransitions .home-content__main {
   padding-top: 4.2rem;
   padding-bottom: 4.2rem;
   background-color: #050505;
-  background-image: url(../images/stats-bg.jpg);
+  background-image: url(../images/mine_truck.png);
+  /*background-image: url(../images/stats-bg.jpg);*/
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2908,19 +2909,26 @@ html.no-csstransitions .home-content__main {
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0.65;
 }
 
 .stats {
-  text-align: center;
+  /*text-align: center;*/
 }
 .stats__col {
+  background-color: #f1f1f1;
+  opacity: 0.9;
   margin: 5.4rem 0;
   padding: 0 2rem;
   position: relative;
   overflow: hidden;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
+
+.stats__col:first-child { 
+    border-right: 1px solid #164359;
+}
+
 .stats__count {
   font-family: "metropolis-light", sans-serif;
   font-size: 9.2rem;
