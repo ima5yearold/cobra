@@ -867,14 +867,14 @@ button.btn--large {
 .btn--stroke,
 button.btn--stroke {
   background: transparent !important;
-  border: 0.2rem solid #000000;
-  color: #000000;
+  border: 0.2rem solid #ff9a16;
+  color: #ff9a16;
 }
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
-  background: #000000 !important;
-  border: 0.2rem solid #000000;
+  background: #164359 !important;
+  border: 0.2rem solid #164359;
   color: #ffffff;
 }
 
@@ -1698,7 +1698,7 @@ input::-moz-focus-inner {
 
 .dawn {
 	color:#ff9a16;
-  
+
 }
 
 .no-js .s-home {
@@ -2234,14 +2234,19 @@ html.no-csstransitions .home-content__main {
   margin-top: 4.2rem;
   position: relative;
 }
-.process__vline-left,
-.process__vline-right {
+.process__vline-left
+ {
   display: block;
   width: 1px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.15);
   position: absolute;
 }
+
+.process__vline-right{
+
+}
+
 .process__vline-left {
   top: 0;
   left: calc(20px + 24px);
@@ -2272,7 +2277,7 @@ html.no-csstransitions .home-content__main {
   width: 48px;
   line-height: 48px;
   border-radius: 50%;
-  box-shadow: 0 0 0 18px #ffffff;
+  box-shadow: 0 0 0 18px #f1f1f1;
   position: absolute;
   left: 20px;
   top: 0;
@@ -2393,6 +2398,9 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .services-list {
   margin-top: 6rem;
+}
+.services-button {
+  margin-top: 1.8rem;
 }
 .services-list .service-item {
   margin-bottom: 1.5rem;
