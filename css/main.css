@@ -2293,6 +2293,18 @@ html.no-csstransitions .home-content__main {
  * Projects Page
  *---*/
 
+ .project-list h2{
+    margin-top: 0;
+    color:#2A90A0;
+ } 
+
+ .project-list h6{
+  margin-top: 0rem;
+  font-size: 1.6rem;
+  line-height: inherit;
+  color:#164359;
+ }
+
  .projects__vline-left,
  .projects__vline-right
  {
