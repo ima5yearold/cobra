@@ -2282,9 +2282,43 @@ html.no-csstransitions .home-content__main {
   left: 20px;
   top: 0;
 }
+
 .process__text {
   margin-left: 7.5rem;
   padding-right: 30px;
+}
+
+
+/*---
+ * Projects Page
+ *---*/
+
+ .projects__vline-left,
+ .projects__vline-right
+ {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+}
+
+ .projects__col::before {
+  content: attr(data-item);
+  display: block;
+  font-family: "metropolis-semibold", sans-serif;
+  font-size: 2.1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #2A90A0;
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 18px #ffffff;
+  position: absolute;
+  left: 20px;
+  top: 0;
 }
 
 
