@@ -2277,7 +2277,7 @@ html.no-csstransitions .home-content__main {
   width: 48px;
   line-height: 48px;
   border-radius: 50%;
-  box-shadow: 0 0 0 18px #f1f1f1;
+  box-shadow: 0 0 0 18px #ffffff;
   position: absolute;
   left: 20px;
   top: 0;
@@ -2358,43 +2358,6 @@ html.no-csstransitions .home-content__main {
   line-height: inherit;
   color:#164359;
  }
-
- .projects__vline-left
- /*.projects__vline-right*/
- {
-  display: block;
-  width: 1px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.15);
-  position: absolute;
-}
-
-.projects__vline-left {
-  top: 0;
-  left: calc(20px + 24px);
-}
-/*.projects__vline-right {
-  top: 0;
-  left: calc(50% + 20px + 24px);
-}*/
-
- .projects__col::before {
-  content: attr(data-item);
-  display: block;
-  font-family: "metropolis-semibold", sans-serif;
-  font-size: 2.1rem;
-  text-align: center;
-  color: #ffffff;
-  background-color: #2A90A0;
-  height: 48px;
-  width: 48px;
-  line-height: 48px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 18px #ffffff;
-  position: absolute;
-  left: 20px;
-  top: 0;
-}
 
 
 /* ------------------------------------------------------------------- 
