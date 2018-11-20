@@ -2359,7 +2359,7 @@ html.no-csstransitions .home-content__main {
   color:#164359;
  }
 
- .projects__vline-left,
+ .projects__vline-left
  /*.projects__vline-right*/
  {
   display: block;
