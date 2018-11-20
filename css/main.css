@@ -2340,6 +2340,7 @@ html.no-csstransitions .home-content__main {
 
  .projects {
   position: relative;
+  margin-top: 0;
  }
 
  .project-image {
