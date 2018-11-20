@@ -2935,7 +2935,8 @@ html.no-csstransitions .home-content__main {
   font-family: "metropolis-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.5;
-  color: #000000;
+  /*color: #000000;*/
+  color:#164359;
 }
 .testimonials__author span {
   display: block;
